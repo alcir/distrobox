@@ -8,7 +8,6 @@ actions:
     post-upstream-clone: "wget https://src.fedoraproject.org/rpms/distrobox/raw/main/f/distrobox.spec -O distrobox.spec"
 srpm_build_deps:
   - wget
-  
 jobs:
   - job: sync_from_downstream
     trigger: commit
