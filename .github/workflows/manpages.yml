@@ -25,7 +25,7 @@ jobs:
         with:
           # Checkout as many commits as needed for the diff
           fetch-depth: 2
-          token: ${{ secrets.PAT }}
+          # token: ${{ secrets.PAT }}
 
       # Fetch from compatibility table all the distros supported
       - id: check_file_changed
