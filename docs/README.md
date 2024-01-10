@@ -1,4 +1,4 @@
-<img src="assets/splash.svg" style="border-radius:12px">
+<img alt="splash" src="assets/splash.svg" style="border-radius:12px">
 
 # Distrobox
 
