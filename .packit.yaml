@@ -1,0 +1,10 @@
+specfile_path: distrobox.spec
+files_to_sync:
+  - distrobox.spec
+  - .packit.yaml
+upstream_package_name: distrobox
+downstream_package_name: distrobox
+actions:
+    post-upstream-clone: "wget https://src.fedoraproject.org/rpms/distrobox/raw/main/f/distrobox.spec -O distrobox.spec"
+srpm_build_deps:
+  - wget
